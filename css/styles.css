@@ -792,7 +792,7 @@ img {
 }
 
 .modal-close:hover .modal-close-icon,
-.modal-close:hover .modal-close-icon {
+.modal-close:focus .modal-close-icon {
   fill: var(--accent-color);
 }
 
