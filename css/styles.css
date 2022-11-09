@@ -924,6 +924,10 @@ img {
   background-origin: content-box;
 }
 
+.checkbox-input:focus + .icon-checkbox {
+  border-color: var(--accent-color);
+}
+
 .checkbox-text {
   font-size: 14px;
   line-height: 1.7;
